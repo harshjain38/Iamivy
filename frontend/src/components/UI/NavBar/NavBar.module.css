@@ -1,0 +1,82 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(73, 199, 107);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 600;
+    padding: 5px 10px 8px;  
+    font-family:  'Ubuntu', sans-serif;
+}
+.logoImg{
+    padding: 12px 0 0 16px;
+    height: 2.4rem;
+}
+
+.firstName{
+    float: right;
+    margin-top: 16px;
+}
+.firstNameA{
+    font-weight: 600;
+    font-size: 23px;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+.butt {
+    margin: 15px 18px 15px 0;
+    background-color: rgb(73, 199, 107);
+    padding: 6px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    font-family:  'Ubuntu', sans-serif;
+}
+.butt:hover {
+    background-color: rgb(17, 112, 43);
+}
+
+@media(max-width:480px){
+    .logo{
+        font-size: 38px;
+    }
+    .logoImg{
+        height: 2rem;
+    }
+    .firstName{
+        margin-top: 20px;
+    }
+    .firstNameA{
+        font-size: 21px;
+    }
+    .butt{
+        font-size: 16px;
+        padding: 7px 12px;
+    }
+}

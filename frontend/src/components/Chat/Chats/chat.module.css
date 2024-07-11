@@ -1,0 +1,28 @@
+div span {
+    margin: 4px;
+}
+
+.msgg {
+    width: 98%;
+    text-align: left;
+    background-color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 11px;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+@media(max-width:480px) {
+    .msgg {
+        font-size: 1rem;
+        padding: 6px;
+    }
+}
+
+@media(max-width:820px) and (min-width:480px) {
+    .msgg {
+        font-size: 1.15rem;
+    }
+}

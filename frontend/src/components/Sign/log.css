@@ -1,0 +1,140 @@
+.main{
+    max-width: 600px;
+    padding: 15% 32%;
+}  
+.reg{
+    padding: 12% 32%;
+}
+
+.log{
+    border-radius: 4px;
+    padding: 2% 1rem 4%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgb(71, 71, 71);
+}
+
+.head1{
+    /* color: rgb(93, 183, 240); */
+    color: rgb(73, 199, 107);
+    font-size: 2.6rem;
+    margin: 2px 0 10px;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+input {
+    border-radius: 4px;
+    color: white;
+    border: 1.2px solid rgb(73, 199, 107);
+    background-color: black;
+    outline: none;
+    margin: 0.6rem 0;
+    padding: 0.75rem 0.75rem;
+    width: 93%;
+    font-size: 1.1rem;
+}
+
+.or{
+    margin: 14px 0 0;
+    color: white;
+    font-weight: 500; 
+    font-size: 17px;  
+    font-family:  'Ubuntu', sans-serif;
+}
+.alt{
+    cursor: pointer;    
+    color: rgb(73, 199, 107);
+    margin: 0 8px;
+    text-decoration: underline;
+}
+.alt:hover{
+    color: rgb(17, 112, 43);
+}
+
+.button {
+    background-color: rgb(73, 199, 107);
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 98%;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0.7rem;
+    font-family:  'Ubuntu', sans-serif;
+}
+.button:hover{
+    background-color: rgb(17, 112, 43);
+}
+
+.getLink{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:480px) {
+    .main{
+        padding: 50% 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .log{
+        padding: 5% 3% 2%;
+    }
+    .reg{
+        width: 300px;
+        padding: 45% 10%;
+    }
+    .head1{
+        font-size: 2rem;
+    }
+    input {
+        padding: 0.45rem 0.75rem;
+        width: 88%;
+        font-size: 0.8rem;
+        margin: 0 0 0.6rem;
+    }
+    .or{
+        margin: 0.5rem 0;
+        font-size: 14px;
+    }
+    .button {
+        font-size: 1rem;
+        padding: 0.3rem;
+        margin: 0.1rem 0;
+    }
+    .butup{
+        margin-top: 0.7rem;
+    }
+}
+
+@media(max-width:1100px) and (min-width:480px) {
+    .main{
+        padding: 18% 22% 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .log{
+        margin: 20% 0 8%;
+    }
+    .reg{
+        padding: 13% 22% 15%;
+    }
+    .head1{
+        font-size: 2.3rem;
+        margin: 8px 0 15px;
+    }
+    input{
+        width: 90.5%;
+        margin: 0 0 0.9rem;
+    }
+    .button{
+        margin: 0;
+    }
+    .or{
+        margin: 0.8rem 0 0.5rem;
+        font-size: 16px;
+    }
+}

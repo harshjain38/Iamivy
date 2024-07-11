@@ -1,0 +1,65 @@
+.mainHome{
+    display: flex;
+    padding: 0 26%;
+}
+
+.divCard{
+    margin: 29% 10px 30%;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    flex: 1;
+}
+.divCard:hover{
+    border: 1px solid white;
+}
+
+.home-head{
+    padding: 20px;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(73, 199, 107);
+    font-family:  'Ubuntu', sans-serif;
+}
+
+.home-para{
+    color: rgb(73, 199, 107);
+    padding: 0 20px 70%;
+    margin: 0;
+    font-size: 20px;
+    font-family:  'Ubuntu', sans-serif;
+}
+
+@media(max-width:480px){
+    .mainHome{
+        display: flex;
+        flex-direction: column;
+        padding: 48% 12% 0;
+    }
+    .divCard{
+        margin: 10px 0;
+        max-height: 160px;
+    }
+    .home-head{
+        font-size: 22px;
+        padding: 10px 20px;
+    }
+    .home-para{
+        font-size: 18px;
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:820px) and (min-width:480px){
+    .mainHome{
+        display: flex;
+        flex-direction: column;
+        padding: 25% 29% 0;
+    }
+    .divCard{
+        margin: 10px 0;
+        max-height: 200px;
+    }
+    .home-head{
+        padding: 10px 20px;
+    }
+}
